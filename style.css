@@ -1,0 +1,114 @@
+#treinbord {
+  display: flex;
+  color: #003082;
+  font-family: Arial;
+}
+
+#links {
+  width: 140px;
+  padding: 30px;
+  height: 340px;
+  background-color: #003082;
+  box-sizing: border-box;
+}
+
+#spoor{
+    background-color: #ffffff;
+    width: 106px;
+    height: 106px;
+    font-size: 14px;
+
+}
+
+#blauwHoekje{
+    height: 25px;
+    width: 25px;
+    background-color: #003082;
+    display: inline-flex;
+}
+
+#spoor span {
+    vertical-align: top;
+    padding-top: 5px;
+    display: inline-flex;
+}
+
+#getal{
+    font-size: 60px;
+    font-weight: bold;
+    padding-left:10px;
+}
+
+#alpha{
+    font-size:20px;
+    font-weight: bold;
+}
+
+
+#midden {
+  padding: 30px;
+  background-color: #003082;
+  box-sizing: border-box;
+}
+
+#dataBoven {
+  background-color: #ffffff;
+  width: 500px;
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#tijd {
+  width: 250px;
+  height: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+}
+#treintype {
+  width: 250px;
+  height: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+  text-align: right;
+}
+
+#treintype img {
+    height: 25px;
+}
+
+#dataOnder{
+    display: block;
+    background-color: #ffffff;
+  width: 500px;
+}
+#stad {
+  font-size: 45px;
+  font-weight: bold;
+  margin:0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#via {
+    font-size: 25px;
+    margin: 10px;
+    width: 350px;
+    height: 96px;
+}
+
+.melding{
+    background-color: #02235d;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+}
+
+#rechts {
+    width: 245px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    text-align: center;
+    padding-top:20px;
+}
